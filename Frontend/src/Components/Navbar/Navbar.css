@@ -1,0 +1,102 @@
+/* Navbar container */
+.navbar {
+  background-color: #0D70B8; /* Blue background */
+  padding: 20px 30px;
+  font-family: Arial, sans-serif;
+  height: 90px; /* Consistent height */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add slight shadow */
+}
+
+/* Center content layout */
+.navbar-full-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px;
+  margin: auto;
+}
+
+/* Left section (brand name) */
+.navbar-left {
+  flex: 1;
+}
+
+/* Brand Name */
+.navbar-brand {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+/* Center section (links) */
+.navbar-center {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Increase spacing between links */
+}
+
+/* Links */
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Links Hover */
+.navbar-link:hover {
+  text-decoration: underline;
+  transition: all 0.3s ease; /* Smooth underline */
+}
+
+/* Right section (button) */
+.navbar-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Order Button */
+.order-now-btn {
+  background-color: #ffdd00; /* Yellow background */
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px; /* Rounded button */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15); /* Button shadow */
+}
+
+/* Order Button Hover Effect */
+.order-now-btn:hover {
+  background-color: #ffc107; /* Slightly darker yellow on hover */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+/* Cart Icon */
+.cart-icon {
+  margin-left: 8px;
+  font-size: 18px; /* Larger cart icon */
+}
+
+/* Responsive styles for mobile, tablet, and laptops */
+@media (max-width: 1024px) {
+  .navbar-center,
+  .navbar-right {
+      display: none; /* Hide links and button */
+  }
+  
+  .navbar-left {
+      flex: 1;
+      display: flex;
+      justify-content: center; /* Center the brand name */
+  }
+}

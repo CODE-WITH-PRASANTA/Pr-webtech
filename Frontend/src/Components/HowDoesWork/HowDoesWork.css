@@ -1,0 +1,117 @@
+/* Section Styles */
+.how-it-works-section {
+    text-align: center;
+  }
+  
+  .how-it-works-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1e73be;
+    padding: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  /* Paragraph and Subheading Styles */
+  .how-it-works-content {
+    margin: auto;
+    text-align: start;
+    max-width: 1100px;
+    line-height: 1.8;
+    color: #333;
+    padding: 0 20px;
+  }
+  
+  .how-it-works-paragraph {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.7;
+  }
+  
+  .how-it-works-subheading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #1e73be;
+    letter-spacing: 1px;
+  }
+  
+  /* Responsive Design */
+  
+  /* For large laptops and desktops */
+  @media (max-width: 1200px) {
+    .how-it-works-title {
+      font-size: 36px;
+    }
+  
+    .how-it-works-paragraph {
+      font-size: 17px;
+    }
+  
+    .how-it-works-subheading {
+      font-size: 24px;
+    }
+  }
+  
+  /* For tablets */
+  @media (max-width: 768px) {
+    .how-it-works-title {
+      font-size: 30px;
+      padding: 20px;
+    }
+  
+    .how-it-works-paragraph {
+      font-size: 16px;
+    }
+  
+    .how-it-works-subheading {
+      font-size: 22px;
+    }
+  
+    .how-it-works-content {
+      padding: 0 20px;
+    }
+  }
+  
+  /* For mobile screens */
+  @media (max-width: 480px) {
+    .how-it-works-title {
+      font-size: 26px;
+      padding: 15px;
+    }
+  
+    .how-it-works-paragraph {
+      font-size: 15px;
+    }
+  
+    .how-it-works-subheading {
+      font-size: 18px;
+    }
+  
+    .how-it-works-content {
+        text-align: justify;
+      padding: 0 20px;
+    }
+  }
+  
+  /* For very small mobile screens */
+  @media (max-width: 360px) {
+    .how-it-works-title {
+      font-size: 22px;
+      padding: 15px;
+    }
+  
+    .how-it-works-paragraph {
+      font-size: 14px;
+    }
+  
+    .how-it-works-subheading {
+      font-size: 16px;
+    }
+  }
+  

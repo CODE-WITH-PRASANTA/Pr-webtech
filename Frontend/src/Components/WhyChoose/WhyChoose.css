@@ -1,0 +1,115 @@
+/* Main Section */
+.why-choose-section {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  
+  .why-choose-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1e73be;
+    padding: 20px;
+    display: inline-block;
+    margin-bottom: 50px;
+  }
+  
+  /* Cards Container */
+  .why-cards-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1100px;
+    margin: auto;
+  }
+  
+  /* Individual Card */
+  .why-card {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    flex: 1 1 calc(25% - 20px);
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .why-card:hover {
+    transform: translateY(-10px); /* Hover effect */
+  }
+  
+  /* Card Icon */
+  .why-card-icon {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  /* Card Title */
+  .why-card-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #003366;
+    margin-bottom: 10px;
+  }
+  
+  /* Card Description */
+  .why-card-description {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #666666;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  /* Adjust the <span> inside description for better styling */
+  .why-card-description span {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #1e73be; /* Highlighting the product name */
+    display: block;
+    margin-top: 10px; /* Space above text */
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* For large screens (laptops/desktops) */
+  @media (max-width: 1200px) {
+    .why-card {
+        margin: auto;
+      flex: 1 1 calc(33% - 20px); /* 3 cards per row on medium screens */
+    }
+  }
+  
+  /* For tablets */
+  @media (max-width: 768px) {
+    .why-card {
+      flex: 1 1 calc(50% - 20px); /* 2 cards per row on small screens */
+    }
+    .why-choose-title {
+      font-size: 30px; /* Smaller title on tablets */
+    }
+  }
+  
+  /* For mobile screens */
+  @media (max-width: 480px) {
+    .why-card {
+      flex: 1 1 100%; /* Single card per row on mobile screens */
+      padding: 15px; /* Reduced padding on mobile */
+    }
+    .why-choose-title {
+      font-size: 24px; /* Smaller title on mobile */
+    }
+    .why-card-title {
+      font-size: 20px; /* Smaller card titles on mobile */
+    }
+    .why-card-description {
+      font-size: 16px; /* Smaller description text on mobile */
+    }
+  }
+  

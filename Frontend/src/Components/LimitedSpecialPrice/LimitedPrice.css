@@ -1,0 +1,155 @@
+/* Section Styles */
+.limited-price-section {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  
+  .limited-price-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1e73be;
+    padding: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  .limited-price-subtitle {
+    font-weight: 800;
+    font-size: 2rem;
+    color: #ff9900;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+  }
+  
+  /* Pricing Cards */
+  .pricing-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .pricing-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .pricing-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .pricing-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .basic-plan {
+    border: 2px solid #ddd;
+  }
+  
+  .popular-plan {
+    border: 2px solid #ff9900;
+  }
+  
+  .bundle-plan {
+    border: 2px solid #1e73be;
+  }
+  
+  /* Customer Reviews */
+  .customer-reviews {
+    margin-top: 40px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .review-text {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .rating {
+    font-size: 24px;
+    color: #ffcc00;
+    margin: 10px 0;
+  }
+  
+  .review-count {
+    color: #777;
+    font-size: 16px;
+  }
+  
+  /* Responsive Design */
+  
+  /* For large laptops and desktops */
+  @media (max-width: 1200px) {
+    .limited-price-title {
+      font-size: 36px;
+    }
+  
+    .pricing-card {
+      width: 250px;
+    }
+  
+    .limited-price-subtitle {
+      font-size: 1.8rem;
+    }
+  }
+  
+  /* For tablets */
+  @media (max-width: 768px) {
+    .limited-price-title {
+      font-size: 32px;
+    }
+  
+    .pricing-cards-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .pricing-card {
+      width: 300px;
+      margin-bottom: 30px;
+    }
+  
+    .limited-price-subtitle {
+      font-size: 1.5rem;
+    }
+  }
+  
+  /* For mobile screens */
+  @media (max-width: 480px) {
+    .limited-price-title {
+      font-size: 28px;
+      padding: 15px;
+    }
+  
+    .pricing-cards-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .pricing-card {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  
+    .limited-price-subtitle {
+      font-size: 1.2rem;
+    }
+  
+    .customer-reviews {
+      font-size: 14px;
+    }
+  }
+  
