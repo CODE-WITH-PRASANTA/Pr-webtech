@@ -1,19 +1,16 @@
-import React, { Suspense, lazy } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
-
-const Home = lazy(() => import('./Pages/Home/Home'));
+import Home from './Pages/Home/Home'; // Directly import Home component
 
 const App = () => {
   return (
     <Router>
       <Navbar />
-      <Suspense fallback={<div>Loading...</div>}>
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
-      </Suspense>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
       <Footer />
     </Router>
   );

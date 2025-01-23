@@ -18,7 +18,7 @@
   }
   
   .product-image {
-    max-width: 100%;
+    max-width: 375px;
     height: auto;
     border-radius: 10px;
     margin-bottom: 15px;
@@ -31,7 +31,7 @@
   }
   
   .brand-below-logo {
-    max-width: 90%;
+    max-width: 340px;
     height: auto;
     display: inline-block;
   }
@@ -156,5 +156,26 @@
       font-size: 12px;
       padding: 8px 15px;
     }
+  }
+  
+
+  .customer-reviews {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .review-text {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .rating {
+    font-size: 1rem;
+    color: #f39c12; /* Gold color for stars */
+  }
+  
+  .review-count {
+    font-size: 0.9rem;
+    color: #666;
   }
   

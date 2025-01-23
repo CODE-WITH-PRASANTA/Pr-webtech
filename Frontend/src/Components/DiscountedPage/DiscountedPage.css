@@ -19,7 +19,8 @@
   }
   
   .Discount-product-image {
-    width: 100%;
+    width: 399px;
+    height: 374px;
     max-width: 400px;
     margin: auto;
   }
@@ -96,6 +97,9 @@
   
   /* Responsive Styles */
   @media (max-width: 768px) {
+    .Discount-product-image{
+      max-width: 100%;
+    }
     .discount-header {
       font-size: 20px;
       padding: 15px;
@@ -128,11 +132,6 @@
       font-size: 18px;
       padding: 10px;
     }
-  
-    .Discount-product-image {
-      width: 80%;
-    }
-  
     .countdown-item span {
       font-size: 24px;
     }

@@ -47,8 +47,8 @@
   }
   
   .pricing-image {
-    width: 100%;
-    height: auto;
+    width: 236px;
+    height: 440px;
     border-radius: 10px;
   }
   
@@ -153,3 +153,94 @@
     }
   }
   
+
+  /* For iPad Air (820px to 1024px) */
+@media (min-width: 820px) and (max-width: 1024px) {
+  .limited-price-title {
+    font-size: 34px;
+    padding: 18px;
+  }
+
+  .limited-price-subtitle {
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+  }
+
+  .pricing-cards-container {
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+
+  .pricing-card {
+    width: 260px;
+    padding: 15px;
+  }
+
+  .pricing-image {
+    width: 220px;
+    height: 400px;
+  }
+
+  .customer-reviews {
+    margin-top: 30px;
+    font-size: 15px;
+  }
+
+  .review-text {
+    font-size: 17px;
+  }
+
+  .rating {
+    font-size: 22px;
+  }
+
+  .review-count {
+    font-size: 14px;
+  }
+}
+
+/* For Mobile-Desktop View (481px to 819px) */
+@media (min-width: 481px) and (max-width: 819px) {
+  .limited-price-title {
+    font-size: 30px;
+    padding: 16px;
+  }
+
+  .limited-price-subtitle {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+
+  .pricing-cards-container {
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+  }
+
+  .pricing-card {
+    width: 280px;
+    padding: 15px;
+  }
+
+  .pricing-image {
+    width: 240px;
+    height: 420px;
+  }
+
+  .customer-reviews {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .review-text {
+    font-size: 16px;
+  }
+
+  .rating {
+    font-size: 20px;
+  }
+
+  .review-count {
+    font-size: 13px;
+  }
+}

@@ -17,7 +17,7 @@
   }
   
   .brand-logo {
-    width: 100%;
+    width: 612px;
     max-width: 600px;
     height: auto;
   }
@@ -110,6 +110,9 @@
   /* Media Queries for Responsiveness */
   
   @media (max-width: 1024px) {
+    .brand-logo{
+      width: 100%;
+    }
     .scientifically-card {
       flex: 1 1 calc(50% - 20px); /* Two cards per row */
     }
