@@ -31,8 +31,8 @@ const LimitedPrice = () => {
         </script>
       </Helmet>
 
-      <h2 className="limited-price-title">Limited Time Special Pricing - Act Now!</h2>
-      <p className="limited-price-subtitle">Secure Your Reserved Mitolyn While Stocks Last</p>
+      <h2 className="limited-price-title">Limited Time Special Pricing - Act Now!  <p className="limited-price-subtitle">Secure Your Reserved Mitolyn While Stocks Last</p></h2>
+     
 
       <div className="pricing-cards-container">
         {/* Basic Plan */}

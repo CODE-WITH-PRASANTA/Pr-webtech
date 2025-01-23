@@ -5,7 +5,6 @@
   }
   
   .review-heading {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
     font-size: 40px;
     font-weight: bold;
@@ -61,7 +60,7 @@
   
   .review-verification {
     font-size: 16px;
-    color: #666;
+    color: #000000cf;
     margin-bottom: 10px;
     display: block;
   }
@@ -72,19 +71,17 @@
     margin-right: 5px;
   }
   
-  .review-text {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  .coustmer-review-text {
     font-size: 16px;
-    color: #555;
+    color: #000000;
     line-height: 1.6;
     margin: 0 0 15px;
   }
   
   .review-author {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
-    color: #888;
-    font-style: italic;
+    font-size: 17px;
+    color: #000000;
+    font-weight: bolder;
   }
   
   /* Responsive Styles */
@@ -97,18 +94,6 @@
     .review-card {
       padding: 15px;
       gap: 20px;
-    }
-  
-    .review-title {
-      font-size: 22px;
-    }
-  
-    .review-text {
-      font-size: 15px;
-    }
-  
-    .review-author {
-      font-size: 15px;
     }
   
     .review-img {
@@ -139,26 +124,12 @@
       text-align: center;
     }
   
-    .review-title {
-      font-size: 20px;
-    }
   
-    .review-text {
-      font-size: 14px;
-    }
-  
-    .review-author {
-      font-size: 14px;
-    }
-  
-    .review-heading {
-      font-size: 30px;
-    }
+   
   }
   
   @media (max-width: 480px) {
     .review-heading {
-      font-size: 26px;
       padding: 15px;
     }
   
@@ -167,17 +138,7 @@
       gap: 15px;
     }
   
-    .review-title {
-      font-size: 18px;
-    }
-  
-    .review-text {
-      font-size: 13px;
-    }
-  
-    .review-author {
-      font-size: 13px;
-    }
+   
   
     .review-img {
       width: 90px;

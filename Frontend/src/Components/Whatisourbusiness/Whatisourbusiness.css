@@ -5,7 +5,6 @@
 }
 
 .business-title {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   width: 100%;
   font-size: 40px;
   font-weight: bold;
@@ -34,10 +33,9 @@
 }
 
 .business-paragraph {
-  font-family: 'Times New Roman', Times, serif;
   text-align: start;
   font-size: 17px;
-  color: #333;
+  color: #000000;
   line-height: 1.8;
   margin-bottom: 20px;
 }
@@ -90,15 +88,10 @@
 
   .business-paragraph {
     text-align: justify;
-    font-size: 15px; /* Smaller paragraph text for tablets */
   }
 
   .business-image {
     max-width: 70%; /* Limit image size for tablets */
-  }
-
-  .business-title {
-    font-size: 30px; /* Adjust title font size for tablets */
   }
 }
 
@@ -108,9 +101,7 @@
     font-size: 28px; /* Adjust title font size for mobile */
   }
 
-  .business-paragraph {
-    font-size: 14px; /* Smaller paragraph text for mobile */
-  }
+ 
 
   .business-image {
     max-width: 100%; /* Make the image full-width on mobile */
@@ -127,9 +118,7 @@
     font-size: 24px; /* Adjust title font size further for small screens */
   }
 
-  .business-paragraph {
-    font-size: 13px; /* Further reduce paragraph text size */
-  }
+
 
   .business-image {
     max-width: 100%; /* Keep image full width */

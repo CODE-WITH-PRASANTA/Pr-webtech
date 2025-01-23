@@ -4,7 +4,6 @@
   }
   
   .how-it-works-title {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
     font-size: 40px;
     font-weight: bold;
@@ -26,18 +25,16 @@
   }
   
   .how-it-works-paragraph {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 25px;
     font-size: 18px;
-    color: #555;
+    color: #000000;
     line-height: 1.7;
   }
   
   .how-it-works-subheading {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 26px;
     font-weight: bold;
-    color: #1e73be;
+    color: #000000;
     letter-spacing: 1px;
   }
   
@@ -49,9 +46,7 @@
       font-size: 36px;
     }
   
-    .how-it-works-paragraph {
-      font-size: 17px;
-    }
+
   
     .how-it-works-subheading {
       font-size: 24px;
@@ -64,15 +59,7 @@
       font-size: 30px;
       padding: 20px;
     }
-  
-    .how-it-works-paragraph {
-      font-size: 16px;
-    }
-  
-    .how-it-works-subheading {
-      font-size: 22px;
-    }
-  
+
     .how-it-works-content {
       padding: 0 20px;
     }
@@ -85,14 +72,7 @@
       padding: 15px;
     }
   
-    .how-it-works-paragraph {
-      font-size: 15px;
-    }
-  
-    .how-it-works-subheading {
-      font-size: 18px;
-    }
-  
+
     .how-it-works-content {
         text-align: justify;
       padding: 0 20px;
@@ -106,12 +86,6 @@
       padding: 15px;
     }
   
-    .how-it-works-paragraph {
-      font-size: 14px;
-    }
-  
-    .how-it-works-subheading {
-      font-size: 16px;
-    }
+ 
   }
   

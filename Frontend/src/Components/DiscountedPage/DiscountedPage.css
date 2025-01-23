@@ -1,5 +1,4 @@
 .discount-page {
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
   }
   
@@ -48,7 +47,7 @@
   .countdown-item span {
     font-size: 32px;
     font-weight: bold;
-    color: #1e73be;
+    color: #000000;
   }
   
   .price-details {
@@ -66,12 +65,12 @@
   .discounted-price {
     font-size: 30px;
     font-weight: bold;
-    color: #ff9800;
+    color: #000000;
   }
   
   .order-button {
     margin: 30px auto 0;
-    background-color: #f8c440;
+    background-color: #F3CF00;
     color: #000000;
     font-size: 18px;
     font-weight: bold;

@@ -49,22 +49,22 @@
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #2c3e50;
+    color: #000000;
   }
   
   .description {
     font-size: 20px;
     line-height: 1.8;
     margin-bottom: 20px;
-    color: #555;
+    color: #000000;
   }
   
   /* Call-to-Action Button */
   .cta-button {
     width: 70%;
     display: inline-block;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #FFE300;
+    color: #000000;
     font-weight: bold;
     padding: 12px 25px;
     border: none;
@@ -89,6 +89,10 @@
   
   /* Responsive Design */
   @media (max-width: 1024px) {
+    .title{
+      text-align: start;
+      font-size: 35px;
+    }
     /* For tablets */
     .content-container {
       flex-direction: column;
@@ -101,36 +105,23 @@
       text-align: center;
     }
   
-    .title {
-      font-size: 32px;
-    }
-  
-    .description {
-      font-size: 16px;
-    }
-  
+   
     .cta-button {
       width: 80%;
-      font-size: 16px;
     }
   }
   
   @media (max-width: 768px) {
  
 
-    .title {
-      font-size: 28px;
-    }
   
     .description {
         text-align: justify;
-      font-size: 14px;
       line-height: 1.6;
     }
   
     .cta-button {
       width: 90%;
-      font-size: 14px;
       padding: 10px 20px;
     }
   }
@@ -147,13 +138,11 @@
     }
     
     .description {
-      font-size: 14px;
       line-height: 1.5;
     }
   
     .cta-button {
       width: 100%;
-      font-size: 12px;
       padding: 8px 15px;
     }
   }
@@ -170,12 +159,10 @@
   }
   
   .rating {
-    font-size: 1rem;
     color: #f39c12; /* Gold color for stars */
   }
   
   .review-count {
-    font-size: 0.9rem;
     color: #666;
   }
   

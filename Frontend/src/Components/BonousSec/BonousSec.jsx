@@ -11,10 +11,13 @@ const BonousSec = () => {
       <h2 className="bonus-title">Order 6 Bottles or 3 Bottles <span>And Get 2 Free Bonuses! </span> </h2>
 
       <div className="bonus-container">
+
+        <div className="bonous-one">
         {/* Bonus #1 */}
         <div className="bonus-card">
           <img src={Bonous1} alt="1-Day Kickstart Detox" className="bonus-image" />
-          <h3 className="bonus-header">BONUS #1</h3>
+        </div>
+        <h3 className="bonus-header">BONUS #1</h3>
           <h4 className="bonus-name">1-Day Kickstart Detox</h4>
           <p className="bonus-free">100% FREE</p>
           <p className="bonus-description">
@@ -22,16 +25,18 @@ const BonousSec = () => {
           </p>
         </div>
 
+        <div className="bonous-two">
         {/* Bonus #2 */}
         <div className="bonus-card">
           <img src={Bonous2} alt="Renew You" className="bonus-image" />
-          <h3 className="bonus-header">BONUS #2</h3>
+        </div>
+        <h3 className="bonus-header">BONUS #2</h3>
           <h4 className="bonus-name">Renew You</h4>
           <p className="bonus-free">100% FREE</p>
           <p className="bonus-description">
             With your brand-new fast-tracked body comes a new mindset. Discover simple methods you can do right now to instantly relieve stress and calm your mind, boost confidence and reduce anxiety.
           </p>
-        </div>
+      </div>
       </div>
     </div>
   );
