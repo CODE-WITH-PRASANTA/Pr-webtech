@@ -18,6 +18,15 @@ import DiscountedPage from '../../Components/DiscountedPage/DiscountedPage';
 const Home = () => {
   return (
     <>
+      <Helmet>
+        {/* Preload LCP image */}
+        <link
+          rel="preload"
+          as="image"
+          href={Productimg}
+          type="image/webp"
+        />
+      </Helmet>
       <div className="home-section">
         <div className="content-container">
           <div className="product-section">
