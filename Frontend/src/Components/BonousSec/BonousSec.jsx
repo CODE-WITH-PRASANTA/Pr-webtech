@@ -24,7 +24,14 @@ const BonousSec = () => {
           {/* Bonus #1 */}
           <div className="bonous-one">
             <div className="bonus-card">
-              <img src={Bonous1} alt="1-Day Kickstart Detox" className="bonus-image" />
+            <img
+              src={Bonous1}
+              alt="1-Day Kickstart Detox"
+              className="bonus-image"
+              width="405"
+              height="auto" /* Replace "auto" with the actual height if known */
+            />
+
             </div>
             <h3 className="bonus-header">BONUS #1</h3>
             <h4 className="bonus-name">1-Day Kickstart Detox</h4>
@@ -37,7 +44,14 @@ const BonousSec = () => {
           {/* Bonus #2 */}
           <div className="bonous-two">
             <div className="bonus-card">
-              <img src={Bonous2} alt="Renew You" className="bonus-image" />
+            <img
+              src={Bonous2}
+              alt="1-Day Kickstart Detox"
+              className="bonus-image"
+              width="405"
+              height="auto" /* Replace "auto" with the actual height if known */
+            />
+
             </div>
             <h3 className="bonus-header">BONUS #2</h3>
             <h4 className="bonus-name">Renew You</h4>

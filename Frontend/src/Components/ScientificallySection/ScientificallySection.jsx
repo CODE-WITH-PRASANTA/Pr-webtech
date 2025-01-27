@@ -10,7 +10,14 @@ const ScientificallySection = () => {
     <div className="scientifically-container">
       {/* Header Section */}
       <div className="scientifically-header">
-        <img src={BrandLogo} alt="Brand Logo" className="brand-logo" />
+      <img
+          src={BrandLogo}
+          alt="Brand Logo"
+          className="brand-logo"
+          width="600" /* Use the maximum allowed width */
+          height="auto" /* Replace "auto" with the actual height if known */
+        />
+
       </div>
 
       {/* Full Scientific Section */}
@@ -49,7 +56,14 @@ const ScientificallySection = () => {
 
         {/* Guarantee Section */}
         <div className="guarantee-section">
-          <img src={PercentOffLogo} alt="90% Money Back Guarantee" className="percent-logo" />
+        <img
+            src={PercentOffLogo}
+            alt="90% Money Back Guarantee"
+            className="percent-logo"
+            width="150" /* Fixed width of 150px */
+            height="auto" /* Replace with the actual height if known */
+          />
+
           <div className="guarantee-content">
             <h3 className="guarantee-title">100% Satisfaction</h3>
             <h4 className="guarantee-subtitle">90-Day Money Back Guarantee</h4>

@@ -17,9 +17,9 @@
   }
   
   .brand-logo {
-    width: 612px;
-    max-width: 600px;
-    height: auto;
+    width: 600px; /* Fixed width */
+    max-width: 100%; /* Responsive scaling */
+    height: auto; /* Maintains aspect ratio */
   }
   
   .scientifically-title {
@@ -79,9 +79,10 @@
   }
   
   .percent-logo {
-    width: 150px;
-    max-width: 100%;
+    width: 150px; /* Fixed width */
+    max-width: 100%; /* Ensures it stays responsive */
   }
+  
   
   .guarantee-content {
     flex: 1 1 60%;

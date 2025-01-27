@@ -38,10 +38,10 @@
   }
   
   .review-img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
+    width: 120px;       /* Explicit width for layout stability */
+    height: 120px;      /* Explicit height for layout stability */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover;  /* Ensures the image fits within the defined size */
     border: 3px solid #1e73be;
   }
   

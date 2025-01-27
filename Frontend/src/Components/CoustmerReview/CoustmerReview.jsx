@@ -22,7 +22,14 @@ const CoustmerReview = () => {
         <div className="review-container">
           {/* First Review */}
           <div className="review-card">
-            <img src={Coustmer1} alt="Customer 1" className="review-img" />
+          <img
+          src={Coustmer1}
+          alt="Customer 1"
+          className="review-img"
+          width="120"
+          height="120"
+        />
+
             <div className="review-content">
               <h3 className="review-title">Peggy is 35 lbs lighter...</h3>
               <span className="review-verification">Verified Purchase</span>
@@ -35,7 +42,14 @@ const CoustmerReview = () => {
 
           {/* Second Review */}
           <div className="review-card">
-            <img src={Coustmer2} alt="Customer 2" className="review-img" />
+           <img
+            src={Coustmer2}
+            alt="Customer 1"
+            className="review-img"
+            width="120"
+            height="120"
+          />
+
             <div className="review-content">
               <h3 className="review-title">Russel has torched 29 lbs...</h3>
               <span className="review-verification">Verified Purchase</span>
@@ -48,7 +62,14 @@ const CoustmerReview = () => {
 
           {/* Third Review */}
           <div className="review-card">
-            <img src={Coustmer3} alt="Customer 3" className="review-img" />
+          <img
+              src={Coustmer3}
+              alt="Customer 1"
+              className="review-img"
+              width="120"
+              height="120"
+            />
+
             <div className="review-content">
               <h3 className="review-title">Connie's dropped 40 lbs...</h3>
               <span className="review-verification">Verified Purchase</span>

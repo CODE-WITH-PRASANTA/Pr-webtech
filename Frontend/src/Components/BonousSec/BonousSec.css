@@ -38,11 +38,12 @@
 
 .bonus-image {
   border: 2px solid #ffffff;
-  width: 405PX;
-  height: auto;
+  width: 405px; /* Fixed width */
+  height: auto; /* Maintains the aspect ratio */
   border-radius: 8px;
   margin-bottom: 15px;
 }
+
 
 .bonus-header {
   font-size: 25px;

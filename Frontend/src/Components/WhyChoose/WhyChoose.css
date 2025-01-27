@@ -42,10 +42,9 @@
     transform: translateY(-10px); /* Hover effect */
   }
   
-  /* Card Icon */
   .why-card-icon {
     width: 220px;
-    height: auto;
+    height: auto; /* Maintains aspect ratio */
     margin-bottom: 15px;
   }
   

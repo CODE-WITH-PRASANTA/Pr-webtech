@@ -33,7 +33,14 @@ const DiscountedPage = () => {
     <div className="discount-page">
       <div className="discount-header">Don't Wait Any Longer! Order Your Discounted Bottle Now!</div>
       <div className="discount-content">
-        <img src={Productimg} alt="Mitolyn Product" className="discount-product-image" />
+      <img
+            src={Productimg}
+            alt="Mitolyn Product"
+            className="Discount-product-image"
+            width="399" /* Fixed width of 399px */
+            height="374" /* Fixed height of 374px */
+          />
+
         <div className="discount-details">
           {/* Countdown Timer */}
           <div className="countdown">

@@ -26,7 +26,14 @@ const Whatisourbusiness = () => {
 
         {/* Image Section */}
         <div className="business-image-container">
-          <img src={Productimg} alt="Mitolyn Product" className="business-image" />
+        <img
+            src={Productimg}
+            alt="Mitolyn Product"
+            className="business-image"
+            width="430"
+            height="auto" /* Replace "auto" with the actual height if known */
+          />
+
         </div>
       </div>
     </section>

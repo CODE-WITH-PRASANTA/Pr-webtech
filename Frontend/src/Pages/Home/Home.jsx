@@ -30,9 +30,23 @@ const Home = () => {
       <div className="home-section">
         <div className="content-container">
           <div className="product-section">
-            <img src={Productimg} alt="Product" className="product-image" />
+          <img
+            src={Productimg}
+            alt="Product"
+            className="product-image"
+            width="375"
+            height="500" // Replace with the actual dimensions of your image
+          />
+
             <div className="brand-below-product">
-              <img src={Brandimg} alt="Brand" className="brand-below-logo" />
+            <img
+                src={Brandimg}
+                alt="Brand"
+                className="brand-below-logo"
+                width="340"
+                height="200" // Replace with the actual dimensions of your image
+              />
+
               <div className="customer-reviews">
                 <p className="review-text">Our customers say</p>
                 <p className="rating">&#9733;&#9733;&#9733;&#9733;&#9734; 4.97 / 5</p>

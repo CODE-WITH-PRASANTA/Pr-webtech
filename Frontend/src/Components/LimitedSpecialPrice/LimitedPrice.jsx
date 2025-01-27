@@ -40,17 +40,38 @@ const LimitedPrice = () => {
       <div className="pricing-cards-container">
         {/* Basic Plan */}
         <div className="pricing-card basic-plan">
-          <img src={BasicPlanImg} alt="Basic Plan" className="pricing-image" />
+        <img
+            src={BasicPlanImg}
+            alt="Basic Plan"
+            className="pricing-image"
+            width="236"
+            height="440"
+        />
+
         </div>
 
         {/* Most Popular Plan */}
         <div className="pricing-card popular-plan">
-          <img src={PopularPlanImg} alt="Most Popular Plan" className="pricing-image" />
+        <img
+            src={PopularPlanImg}
+            alt="Basic Plan"
+            className="pricing-image"
+            width="236"
+            height="440"
+        />
+
         </div>
 
         {/* Bundle Plan */}
         <div className="pricing-card bundle-plan">
-          <img src={BundlePlanImg} alt="Bundle Plan" className="pricing-image" />
+        <img
+            src={BundlePlanImg}
+            alt="Basic Plan"
+            className="pricing-image"
+            width="236"
+            height="440"
+        />
+
         </div>
       </div>
 
