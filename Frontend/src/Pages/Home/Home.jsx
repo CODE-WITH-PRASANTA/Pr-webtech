@@ -19,41 +19,70 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        {/* Preload LCP image */}
+        {/* Preload the Largest Contentful Paint (LCP) image */}
         <link
           rel="preload"
           as="image"
-          href={Productimg}
+          href={Productimg} // Matches the image source
           type="image/webp"
         />
+        {/* Structured data for SEO */}
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "http://schema.org",
+              "@type": "Product",
+              "name": "Mitolyn Special Pricing",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": 4.92,
+                "reviewCount": 92100,
+                "bestRating": 5,
+                "worstRating": 1
+              }
+            }
+          `}
+        </script>
       </Helmet>
       <div className="home-section">
         <div className="content-container">
-          <div className="product-section">
-          <img
-            src={Productimg}
-            alt="Product"
-            className="product-image"
-            width="375"
-            height="500" // Replace with the actual dimensions of your image
-          />
+        <div className="product-section">
+  {/* Preload the LCP image */}
+  <link rel="preload" as="image" href={Productimg} type="image/webp" />
 
-            <div className="brand-below-product">
-            <img
-                src={Brandimg}
-                alt="Brand"
-                className="brand-below-logo"
-                width="340"
-                height="200" // Replace with the actual dimensions of your image
-              />
+  {/* Product image (LCP Element) */}
+  <img
+    src={Productimg}
+    alt="Product"
+    className="product-image"
+    width="375"
+    height="500"
+    loading="eager" // Prioritize loading
+    decoding="async" // Decodes image faster
+  />
 
-              <div className="customer-reviews">
-                <p className="review-text">Our customers say</p>
-                <p className="rating">&#9733;&#9733;&#9733;&#9733;&#9734; 4.97 / 5</p>
-                <p className="review-count">based on 9975+ reviews!</p>
-              </div>
-            </div>
-          </div>
+  {/* Additional Content Below the Product */}
+  <div className="brand-below-product">
+    {/* Brand Logo */}
+    <img
+      src={Brandimg}
+      alt="Brand"
+      className="brand-below-logo"
+      width="340"
+      height="200"
+      loading="lazy" // Defer loading non-critical images
+      decoding="async"
+    />
+
+    {/* Customer Reviews */}
+    <div className="customer-reviews">
+      <p className="review-text">Our customers say</p>
+      <p className="rating">&#9733;&#9733;&#9733;&#9733;&#9734; 4.97 / 5</p>
+      <p className="review-count">based on 9975+ reviews!</p>
+    </div>
+  </div>
+</div>
+
           <div className="content-section">
             <h1 className="title">
               Purple Peel Exploit (Mitolyn): Safe and Effective Weight Loss
@@ -89,24 +118,6 @@ const Home = () => {
       <LimitedPrice />
       <Faq />
       <DiscountedPage />
-      <Helmet>
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "http://schema.org",
-              "@type": "Product",
-              "name": "Mitolyn Special Pricing",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.92",
-                "reviewCount": "92100",
-                "bestRating": "5",
-                "worstRating": "1"
-              }
-            }
-          `}
-        </script>
-      </Helmet>
     </>
   );
 };
