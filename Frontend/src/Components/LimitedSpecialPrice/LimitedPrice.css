@@ -123,6 +123,8 @@
     .limited-price-subtitle {
       font-size: 1.5rem;
     }
+    .full-pricing-card{
+      width: 100%;}
   }
   
   /* For mobile screens */
