@@ -19,6 +19,7 @@
 }
 
 .footer-left {
+    font-size: 20px;
     flex: 1;
     text-align: left;
     font-weight: 500; /* Slightly bolder text */
@@ -39,7 +40,7 @@
 }
 
 .footer-middle p {
-    font-size: 0.8rem;
+    font-size: 17px;
     text-align: justify;
     margin: 10px 0; /* Increased spacing between paragraphs */
 }
@@ -53,7 +54,7 @@
     color: #ffffff;
     text-decoration: none;
     margin: 5px 0; /* Increased spacing between links */
-    font-size: 16px; /* Larger link font size */
+    font-size: 20px; /* Larger link font size */
     font-weight: 500; /* Slightly bolder links */
 }
 

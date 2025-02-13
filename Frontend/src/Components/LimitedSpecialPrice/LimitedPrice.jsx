@@ -37,6 +37,7 @@ const LimitedPrice = () => {
       </h2>
 
       {/* Pricing Cards */}
+      <div className="full-pricing-card">
       <div className="pricing-cards-container">
         {/* Basic Plan */}
         <div className="pricing-card basic-plan">
@@ -73,6 +74,7 @@ const LimitedPrice = () => {
         />
 
         </div>
+      </div>
       </div>
 
       {/* Customer Reviews */}

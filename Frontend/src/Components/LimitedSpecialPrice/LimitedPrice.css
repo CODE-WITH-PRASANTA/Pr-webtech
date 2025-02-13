@@ -24,28 +24,32 @@
   
   /* Pricing Cards */
   .pricing-cards-container {
-    background-color: #eeeeee;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    max-width: 1000px;
+   
     margin: auto;
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-bottom: 40px;
   }
+
+  .full-pricing-card{
+    width: 1300px;
+    background-color: #eeeeee;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin: auto;
+  }
   
-  .pricing-card {
-    
+  .pricing-card {  
     border-radius: 10px;
-    width: 280px;
+    width: 350px;
     padding: 20px;
     transition: transform 0.3s ease-in-out;
     overflow: hidden;
   }
 
   .pricing-image {
-    width: 236px;
-    height: 440px;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
   }
   

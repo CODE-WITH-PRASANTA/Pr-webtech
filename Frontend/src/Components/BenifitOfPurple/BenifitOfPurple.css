@@ -24,7 +24,7 @@
   .benefits-intro {
     color: #000;
     text-align: justify;
-    font-size: 16px;
+    font-size: 22px;
     line-height: 1.6;
     margin-bottom: 24px;
   }
@@ -36,14 +36,14 @@
   
   .benefit h2 {
     text-align: start;
-    font-size: 25px;
+    font-size: 28px;
     margin: 0 0 8px 0;
     color: #000000;
   }
   
   .benefit p {
     text-align: start;
-    font-size: 19px;
+    font-size: 22px;
     line-height: 1.5;
     color: #000000;
   }

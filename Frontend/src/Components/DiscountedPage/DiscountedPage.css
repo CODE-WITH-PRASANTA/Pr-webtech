@@ -18,8 +18,8 @@
   }
   
   .Discount-product-image {
-    width: 399px; /* Fixed width */
-    height: 374px; /* Fixed height */
+    width: 100%; /* Fixed width */
+    height: 100%; /* Fixed height */
     max-width: 400px; /* Ensures the image doesn't exceed 400px on larger screens */
     margin: auto; /* Centers the image */
   }

@@ -46,28 +46,28 @@
 
 
 .bonus-header {
-  font-size: 25px;
+  font-size: 30px;
   color: #84E7FF;
   font-weight: bold;
   margin: 10px 0;
 }
 
 .bonus-name {
-  font-size: 33px;
+  font-size: 30px;
   color: #ffffff;
   margin-bottom: 5px;
   font-weight: bold;
 }
 
 .bonus-free {
-  font-size: 18px;
+  font-size: 30px;
   color: #fff000; /* Green text for '100% FREE' */
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 .bonus-description {
-  font-size: 16px;
+  font-size: 20px;
   color: #ffffff;
   line-height: 1.5;
 }
